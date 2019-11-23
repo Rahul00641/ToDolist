@@ -4,17 +4,19 @@
   <style>
   #te{
     padding : 15px;
-    border-radius: 3px;
-  margin-left: 30px;}
+    border-radius: 9px;
+  margin-top: 30px;}
     #bt{
-      padding: 14px;
+      padding: 11px;
       color: red;
       font-size : 20px;
-      margin-left: 10px;
+      margin-top: 3px;
+    }
+    #di{
+      height: 400px;
     }
     ul{
       font-size : 25px;
-      margin-left : 15px;
     }
     #cre{
       margin-left: 10px;
@@ -30,16 +32,44 @@
     h1{
       margin-left: 30px;
     }
+    .div1{
+      border-width:medium;
+      border-radius: 5px;
+      width: 70%;
+      align-self: center;
+      margin-left: 200px;;
+      margin-top: 7%;
+      background-color: #D1D1D1;
+    }
+    .div2{
+      margin-left: 300px;
+    }
+    .div3{
+      margin-left: 350px;
+    }
+    hr{
+      margin-right: 330px;
+    }
+    body{
+      background-color: #909090;
+    }
   </style>
 </head>
 <body>
+  <div class="div1">
+    <div class="div2">
 <input type="text" id="te" placeholder="Enter Text">
 <button type="button" id="bt" hover="change()" onclick="add()">Click me</button>
+<hr>
+</div>
+<div class="div3">
 <h1>ToDo List</h1>
 <div id="di">
 <ul id="l">
 </ul>
 </div>
+</div>
+</script>
 
 
 <script>
